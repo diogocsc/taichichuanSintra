@@ -9,6 +9,11 @@ img.poster{
     margin-right: auto;
     display: block;
 }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
 
 .timetable {
     font-family: 'Indie Flower', cursive;
