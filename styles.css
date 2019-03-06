@@ -1,10 +1,11 @@
 body {
-    background: #52c234;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+     
+    }
 
-img.poster{
+.poster{
+    background-image: url('images/CartazTaiChi.jpg');
+    background-size: cover; 
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -14,6 +15,9 @@ img.poster{
     height: auto;
     display:block;
 }
+.title{
+    color:rgb(10%, 30%, 60%);
+}
 
 .timetable {
     font-family: 'Indie Flower', cursive;
@@ -21,20 +25,24 @@ img.poster{
     text-align:center;
     margin-left:auto;
     margin-right: auto;
+    background:rgb(10%, 70%, 20%, 80%);
+    width:100%;
+    padding-bottom:10px;
+   
 }
 .container {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    display:flex;
+   
 }
 .one {
-    display: inline;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.two {
-    display: inline;
-}
+
+
 
 
 .time {
@@ -58,12 +66,13 @@ table{
 
 }
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    border-radius: 5px;
   }
   
   .fa:hover {
