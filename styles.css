@@ -24,7 +24,8 @@ img.poster{
     color:rgb(10%, 30%, 60%);
 }
 .schedule{
-    background: rgb(50%, 80%, 0%);
+    background: rgb(100%, 100%, 60%);
+    color:rgb(174,124,165);
     padding: 10px 10px 20px 10px;
     width: 400px;
     border-radius: 50%;
@@ -82,4 +83,12 @@ table{
   .fa-facebook {
     background: #3B5998;
     color: white;
+  }
+  .footer{
+      position:absolute;
+      white-space: nowrap;
+      margin-bottom: 1px;
+      margin-left: 75%;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 0.5em;
   }
