@@ -1,14 +1,19 @@
 body {
-     
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.25em;
+    text-align:center;
+    background:rgb(10%, 70%, 20%, 80%);
+    padding-bottom:10px;
     }
 
-.poster{
-    background-image: url('images/CartazTaiChi.jpg');
-    background-size: cover; 
-    height: 80%;
+img.poster{
+
     margin-left: auto;
     margin-right: auto;
     display: block;
+    max-width: 100%;
+    height: auto;
+    display:block;
 }
 .img-fluid{
     max-width: 100%;
@@ -18,18 +23,16 @@ body {
 .title{
     color:rgb(10%, 30%, 60%);
 }
-
-.timetable {
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.25em;
-    text-align:center;
+.schedule{
+    background: rgb(50%, 80%, 0%);
+    padding: 10px 10px 20px 10px;
+    width: 400px;
+    border-radius: 50%;
     margin-left:auto;
-    margin-right: auto;
-    background:rgb(10%, 70%, 20%, 80%);
-    width:100%;
-    padding-bottom:10px;
-   
+    margin-right:auto;
+
 }
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -37,13 +40,10 @@ body {
     display:flex;
    
 }
-.one {
+.where {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
 
 .time {
     border-left-width: 0.5;
@@ -57,7 +57,7 @@ table{
     font-size: 1.25em;
 
 }
-.footer{
+.contact{
 
     margin-bottom:0;
     margin-left: auto;
